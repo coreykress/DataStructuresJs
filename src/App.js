@@ -24,6 +24,8 @@ class App extends Component {
         }.bind(this));
         console.log(this.tree.printTree());
         console.log(this.tree.search(4));
+        this.tree.remove(13);
+        console.log(this.tree.printTree());
     }
 
   render() {
